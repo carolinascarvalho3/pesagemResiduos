@@ -188,7 +188,7 @@
 
         <?php
             if(isset($_POST['tCodigo'])){
-            echo $inserir->inserirCategorias($conexao, $codigoCategoria, $categoria);
+            echo $inserir->inserirDados($conexao, $codigoCategoria, $categoria);
         }
         ?>
         
@@ -201,7 +201,7 @@
     
         $inserir = new Inserir();
         $conexao = new Conexao();
-        $categoria = $inserir->inserirCategorias($conexao, $codigoCategoria, $categoria);
+        $categoria = $inserir->inserirDados($conexao, $codigoCategoria, $categoria);
          }
 
         ?>

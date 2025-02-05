@@ -53,6 +53,29 @@
         
         }//fim
 
+        function inserirDados(Conexao $conexao, int $codigoCategoria, string $categoria){
+            try{
+            $conn = $conexao->conectar();
+            $sql = "Insert into residuos(codigoCategoria, categoria) 
+                    values('$codigoCategoria', '$categoria')";
+
+                $result = mysqli_query($conn, $sql);
+                mysqli_close($conn);
+                if($result){
+                    return "<br><br>Inserido com sucesso!";
+                }
+
+                return "<br><br>Não inserido!";
+
+
+            }
+            catch(Except $erro)
+            {
+            return "<br><br>Algo deu errado...".$erro;
+            }
+        
+        }//fim
+
 
     }//fim da classe
 
