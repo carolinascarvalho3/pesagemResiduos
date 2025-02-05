@@ -1,0 +1,213 @@
+body{
+    font-family: 'Helvetica';
+    background-color: white;
+}
+
+nav{
+    background-color:  rgb(170, 223, 194);
+    width: 100%;
+    height: 70px;
+    
+}
+
+h1{
+    margin-left: 33%;
+    margin-top: 10px;
+}
+
+.logo{
+    margin-left: 40%;
+    width: 200px;
+    height: auto;
+}
+
+footer{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(170, 223, 194);
+    margin-top: 10%;
+    background-color: transparent;
+}
+
+
+
+.voltar{
+    text-decoration: none;
+    margin-left: 80px;
+    font-size: larger;
+    width: 100px;
+    float: left;
+    height: auto;
+    background-color: rgb(170, 223, 194);
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Berlin Sans FB';
+    font-size: larger;
+    
+}
+
+.checkbox{
+    margin-left: 200px;
+}
+.cadastrar{
+    display: flex;
+    border: none;
+}
+
+.botao1{
+    background-color: rgb(170, 223, 194);
+    font-family: 'Bahnschrift';
+    font-size: larger;
+    border-radius: 10px;
+    flex-direction: row;
+    text-decoration: none;
+    border: none;
+    margin: 10px;
+    margin-left: 14%;
+}
+
+form{
+    margin-left: 200px;
+    border-radius: 20px;
+    
+}
+
+.consultar{
+    margin-left: 43%;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(170, 223, 194);
+    border: none;
+    font-family: 'Bahnschrift';
+    font-size: large;
+}
+
+label{
+    
+    width: 150;
+    height: auto;
+    font-family: 'Cascadia Code';
+    
+}
+
+.atualizar{
+    margin-left: 43%;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(170, 223, 194);
+    border: none;
+    font-family: 'Bahnschrift';
+    font-size: large;
+}
+
+select{
+    margin-right: 8%;
+}
+
+.excluir{
+    border: none;
+    background-color: rgb(170, 223, 194);
+    margin-left: 43%;
+
+}
+
+.foto1{
+    margin-left: 110px;
+    margin-top: 50px;
+}
+
+.foto2{
+    margin-left: 110px;
+    margin-top: 50px;
+
+}
+
+.foto3{
+    margin-left: 110px;
+    margin-top: 50px;
+
+}
+
+.foto4{
+    margin-left: 110px;
+    margin-top: 50px;
+
+}
+
+
+
+.foto6{
+    margin-left: 110px;
+    margin-top: 50px;
+
+}
+
+.foto7{
+    margin-left: 110px;
+    margin-top: 50px;
+
+}
+
+.foto8{
+    margin-left: 110px;
+    margin-top: 50px;
+
+}
+
+.foto9{
+    margin-left: 350px;
+    display: flex;
+    margin-top: 50px;
+}
+
+p{
+    font-family: 'Berlin Sans FB';
+    margin-left: 24%;
+    font-size: larger;
+}
+
+.submit{
+    margin-left: 30%;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(170, 223, 194);
+    border: none;
+    font-family: 'Bahnschrift';
+    font-size: large;
+}
+
+ul{
+    margin-left: 10px;
+}
+
+.campo1{
+    margin-left: 30%;
+}
+
+label{
+    margin-left: 30%;
+}
+
+
+.caixa{
+    margin-left: 40%;
+}
+.divmenu{
+    margin-left: 300px;
+}
+
+.inserir{
+    margin-left: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
