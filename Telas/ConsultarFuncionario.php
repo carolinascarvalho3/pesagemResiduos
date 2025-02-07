@@ -58,7 +58,7 @@
         </div>
 
          <button class="consultar" type="submit">Consultar</button>
-    </form>
+    
 
         <div>
             <a class="voltar"  href="menu.php">Menu</a>
@@ -70,7 +70,7 @@
         $consultar = new Consultar();
         echo $consultar->consultarFuncionarioIndividual($conexao, $cpf);
     ?>
-
+</form>
 
     <?php
         if(isset($_POST['tCpf'])){

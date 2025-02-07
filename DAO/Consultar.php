@@ -62,7 +62,7 @@
                     {
                         echo $erro;
                     }
-                }//fim do consultarFuncionarioIndividual
+                }//fim do consultarResiduo
     }//fim da classe
 
 ?>
